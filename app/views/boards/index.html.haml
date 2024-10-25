@@ -1,0 +1,10 @@
+.container
+  %h2 All Boards
+  - @boards.each do |board|
+    = link_to root_path(board) do
+      .board
+        .board_title
+          = board.title
+        .board_description 
+          = board.description
+        

@@ -44,6 +44,7 @@ group :development do
   gem 'spring'
   gem 'erb2haml'
   gem 'hamlit'
+  gem 'faker'
 end
 
 group :test do
