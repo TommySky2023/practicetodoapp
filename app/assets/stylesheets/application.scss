@@ -1,0 +1,68 @@
+@import 'header';
+@import 'tabs';
+
+
+
+html {
+  word-spacing: 1px;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  height: 100%;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  height: 100%;
+  background: #FFF;
+  font-size: 1em;
+  color: #000;
+}
+
+
+h2{
+    margin-top: 32px;
+}
+.container {
+    width: 414px;
+    height: 921px;
+    top: 485px;
+    left: 5655px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.btn-primary{
+    width: 362px;
+    height: 40px;
+    margin-top: 300px;
+    left: 30px;
+    margin-bottom: 1rem;
+    border: none;
+    gap: 0px;
+    border-radius: 4px 0px 0px 0px;
+    opacity: 0px;
+    background: #F8BD1C;
+    color:#fff;
+
+}
+
+.text{
+    width: 362px;
+    height: 40px;
+    top: 190px;
+    left: 26px;
+    border: none;
+    gap: 0px;
+    border-radius: 10px 0px 0px 0px;
+    opacity: 0px;
+    background: #F4F4F4;
+}
